@@ -5,29 +5,33 @@
 }
 
 body {
-  font-family: 'roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  font-size: 17px;
-  line-height: 1.5em;
+  font-size: 16px;
+  line-height: 1.6em;
   color: rgba(0,0,0,.4);
   text-align: center;
+  background-color: #2B0804;
 }
+
 
 p {
  text-align: left;
- color: rgba(0,0,0,.4);
+ color: #131413;
  padding: 24px;
 }
 
 
 header {
-margin: 72px;
+margin-top:104px;
 }
 
 
 h1 {
-  font-family: 'rubik', sans-serif;
-  color:maroon;
+  font-size: 3.4em;
+  font-family: 'Roboto Slab', sans-serif;
+  color:#FFB22B;
+  margin-bottom: 80px;
 }
 
 
@@ -35,13 +39,11 @@ h1 {
   margin:0;
 }
 
-
 /* Simple Responsive Framework. */
 .row {
-  display: inline-block;
   margin: 24px;
+  max-width: 100%;
 }
-
 
 
 /********** Large devices only **********/
@@ -177,19 +179,59 @@ h1 {
   }
 }
 
+
 .dish {
-  border: 1px solid rgba(0,0,0,.2);
+  position: relative;
+  border: 1px solid #131413;
+  background-color: rgba(255,255,255,.08);
 }
 
 .dishTitle {
-  float: right;
-  border: 1px solid rgba(0,0,0,.2);
-  background-color: rgba(0,0,0,.1);
-  width: 120px;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  margin-bottom: 24px;
+  border: 1px solid rgba(0,0,0,.1);
+  width: 160px;
+}
+
+.dishTitle.chicken{
+  background-color: #FFB22B;
+}
+
+.dishTitle.beef{
+  background-color: #C13641;
+}
+
+.dishTitle.sushi{
+  background-color: #828844;
 }
 
 .dishTitle p {
-  color:#00BB90;
+  font-size: 1.25em;
+  font-family: 'Roboto Slab', sans-serif;
+  color:#2B0804;
   text-align: center;
-  padding: 12px 24px 12px 24px;
+  padding: 8px 0 8px 0;
+}
+
+.dishBody p {
+  margin-top: 48px;
+  color:rgba(228, 228, 228, .96);
+}
+
+.dishLine {
+  border: 2px solid;
+}
+
+.dishLine.chicken{
+  color: #FFB22B;
+}
+
+.dishLine.beef {
+color: #C13641;
+}
+
+.dishLine.sushi {
+  color: #828844;
 }
