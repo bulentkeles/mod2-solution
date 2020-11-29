@@ -1,8 +1,3 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-
 
 * {
   box-sizing: border-box;
@@ -194,6 +189,7 @@ h1 {
   background-color: rgba(255,255,255,.08);
 }
 
+
 .dishTitle {
   position: absolute;
   top: 0px;
@@ -203,17 +199,21 @@ h1 {
   width: 160px;
 }
 
+
 .dishTitle.chicken{
   background-color: #FFB22B;
 }
+
 
 .dishTitle.beef{
   background-color: #C13641;
 }
 
+
 .dishTitle.sushi{
   background-color: #828844;
 }
+
 
 .dishTitle p {
   font-size: 1.25em;
@@ -223,22 +223,27 @@ h1 {
   padding: 8px 0 8px 0;
 }
 
+
 .dishBody p {
   margin-top: 48px;
   color:rgba(228, 228, 228, .96);
 }
 
+
 .dishLine {
   border: 2px solid;
 }
+
 
 .dishLine.chicken{
   color: #FFB22B;
 }
 
+
 .dishLine.beef {
 color: #C13641;
 }
+
 
 .dishLine.sushi {
   color: #828844;
